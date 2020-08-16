@@ -10,6 +10,6 @@ The full description of the Course work is in the begining of the file SVaryukhi
 
 the file SVaryukhin_solution.pkl is a final training model of the Coursework
 
-the file SVaryukhin_solution.pkl is result of the prediction (of the final model)
+the file SVaryukhin_solution.csv is result of the prediction (of the final model)
 
 any questions are welcome)
