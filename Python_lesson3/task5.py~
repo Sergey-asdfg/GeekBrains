@@ -1,0 +1,19 @@
+# Lesson3, Task 2
+my_sum = 0
+def my_func(arg):
+    global my_sum
+    stop_item = arg.find('s')
+    if stop_item == -1:
+        arg_list = arg.split()
+        for i in range(0, len(arg_list)):
+            my_sum += float(arg_list[i])
+        print(my_sum)
+        my_func(input('Введите числа с пробелами: '))
+    else:
+        arg_list = arg.split()
+        arg_stop_index = arg_list.index('s')
+        for i in range(0, arg_stop_index):
+            my_sum += float(arg_list[i])
+        print(my_sum)
+
+my_func(input('Введите числа с пробелами: '))

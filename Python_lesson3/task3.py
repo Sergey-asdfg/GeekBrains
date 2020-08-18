@@ -1,0 +1,9 @@
+# Lesson3, Task 3
+
+def my_func(arg1, arg2, arg3):
+    sum1 = arg1 + arg2
+    sum2 = arg1 + arg3
+    sum3 = arg2 + arg3
+    print(max(sum1, sum2, sum3))
+
+my_func(int(input('Введите первое целое число: ')), int(input('Введите второе целое число: ')), int(input('Введите третье целое число: ')))
